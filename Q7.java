@@ -33,7 +33,7 @@ public class Q7 {
 		}
 		System.out.println("maximum element = "+max);
 		System.out.println("it occurs "+count +" time/s");
-		System.out.println("first occurance of this element is at index "+c+" from last");
+		System.out.println("first occurance of this element is at index "+c+" from first");
 		}
 		public static void arraymin(int arr[]) {
 			int min =Integer.MAX_VALUE;
