@@ -18,16 +18,16 @@ public static int onedigitsum(int x)throws belowzero {
 	if(x<0) {
 		throw new belowzero();
 	}
-	int sum1=0;int sum2=0;
-	while(x>0) {
-		sum1+=x%10;
-		x/=10;
+	int sum=0;
+	while(x>9) {
+		while(x>0) {
+			sum+=x%10;
+			x/=10;
+		}
+		x=sum;
+		sum=0;
 	}
-	while (sum1>0) {	
-		sum2+=sum1%10;
-		sum1/=10;		
-	}
-	return sum2;
+	return x;
 }
 	public static void main(String[] args) {
 		Scanner s=new Scanner (System.in);
