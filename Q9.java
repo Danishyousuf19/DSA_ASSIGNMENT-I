@@ -8,13 +8,18 @@ import java.util.Scanner;
 public class Q9 {
 
 	static double arrsum(double arr[][]) {double sum=0;
+		double s=0;			      
 	for(int i=0;i<arr.length;i++) {
+		int n=arr.length;
 		 for(int j=0;j<arr[i].length;j++) {
 		if(i==j)	 sum+=arr[i][j];
-			 
+		if(i+j==n){
+			s+=arr[i][j];
 		 }
 	}
-		return sum;
+		if(s>sum)
+		return s;
+return sum
 	}
 
 		public static void main(String[] args) {
