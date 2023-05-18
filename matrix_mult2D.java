@@ -84,3 +84,39 @@ obj.simple(k,arr,x,y);
 	}
 
 }
+// enter a no of rowsof matrix 1 and columns of matrix 1 and 2  
+// 2
+// 2
+// enter columns of matrix  2
+// 2
+// enter a element
+// 6
+// enter a element
+// 8
+// enter a element
+// 3
+// enter a element
+// 6
+// display
+// 6 8 
+// 3 6 
+// enter a element
+// 7
+// enter a element
+// 9
+// enter a element
+// 4
+// enter a element
+// 3
+// display
+// 7 9 
+// 4 3 
+// mateix multiplication
+// 74 78 
+// 45 45 
+// enter pre mult
+// 0
+// simple multiply of matrix 1
+// 0 0 
+// 0 0 
+
