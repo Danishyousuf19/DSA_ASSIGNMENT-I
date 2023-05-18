@@ -18,7 +18,8 @@ public class Q4 {
     		
     	}
     private static void generateStrings(String prefix, String remaining) {
-        int n = remaining.length();System.err.println(n);System.err.println(remaining);
+        int n = remaining.length();
+        //System.err.println(n);System.err.println(remaining);
         if (n == 0) {
             System.out.println(prefix);
         } else {
